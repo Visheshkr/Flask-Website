@@ -1,0 +1,23 @@
+{
+    "params":
+    {
+      "local_server":"True",
+      "local_uri": "mysql://root:@localhost/codingthunder",
+      "prod_uri":"mysql://root:@localhost/codingthunder",
+      "fb_url":"https://facebook.com/codingthunder",
+      "tw_url":"https://twitter.com/codingthunder",
+      "gh_url": "https://github.com/codingthunder",
+      "blog_name": "Cyber God",
+      "tag_line": "Heaven for programmers",
+      "gmail-user":"blazerbro007@gmail.com",
+      "gmail-password":"ranavisheshsinghblazer@811",
+      "about_text":"Hey there my name is vk the boss and i created this blog page to unreal the hidden wonders of this world",
+      "no_of_posts":2,
+      "login_image":"login_image.jpg",
+      "admin_user":"Vishesh Kumar",
+      "admin_password":"cybergod",
+      "upload_location":"C:\\Users\\Navneet\\Desktop\\flask full tutorial\\static",
+      "sample_post_text":"The Internet is sizable with millions of web pages, databases, and servers all run 24 hours a day. But the so-called visible Internet ( surface web or open web) sites that can be found using search engines like Google and Yahoo  is just the tip of the iceberg.There are several terms surrounding the non-visible Web, but it's worth knowing how they differ if you're planning to browse off the beaten path."
+    }
+  }
+  

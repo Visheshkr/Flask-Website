@@ -1,0 +1,69 @@
+{% extends 'layout.html' %}
+{% block body %}
+    
+
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('static/img/cybergod.jpg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="page-heading">
+                            <h1>CYBER SECURITY</h1>
+                            <span class="subheading">THIS IS A CYBER WORLD</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <div class="container row ">
+        <div class="card mx-2 my-2" style="width: 20rem;">
+            <img src="static/img/information.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Information Age</h5>
+                <p class="card-text">The digital age has brought a complete change in the way we view and experience the world. While collectively the turf on which the world functions has become smaller, it has certainly brought its share of problems. As connectivity increases, the risk of security also crops up exponentially.</p>
+                <a href="https://www.ibm.com/topics/cybersecurity" target="_blank"><button type="button" class="btn btn-primary ">Read More</button></a> 
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+        <div class="card mx-2 my-2" style="width: 20rem;">
+            <img src="static/img/darkweb.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Dark Web</h5>
+                <p class="card-text">The dark web refers to content that isn't indexed by search engines and that requires special software or authorization to access. Dark web content lives on the darknet, a part of the internet accessible only to particular browsers or through specific network configurations.</p>
+                <a href="https://www.avast.com/c-dark-web#gref" target="_blank"><button type="button" class="btn btn-primary ">Read More</button></a> 
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+        <div class="card mx-2 my-2" style="width: 20rem;">
+            <img src="static/img/ethical_hacking.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Ethical Hacking</h5>
+                <p class="card-text">The dark web refers to content that isn't indexed by search engines and that requires special software or authorization to access. Dark web content lives on the darknet, a part of the internet accessible only to particular browsers or through specific network configurations</p>
+                <a href="https://www.synopsys.com/glossary/what-is-ethical-hacking.html" target="_blank"><button type="button" class="btn btn-primary ">Read More</button></a> 
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+        <div class="card mx-2 my-2" style="width: 15rem;">
+            <img src="static/img/ai.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Artificial Intelligence</h5>
+                <p class="card-text">Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to natural intelligence displayed by animals including humans. ... As machines become increasingly capable, tasks considered to require "intelligence" are often removed from the definition of AI, a phenomenon known as the AI effect.</p>
+                <a href="https://builtin.com/artificial-intelligence" target="_blank"><button type="button" class="btn btn-primary">Read More</button></a> 
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+        
+    </div>
+        <main class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <p>{{params['sample_post_text']}}</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+            {% endblock body %}
+       
